@@ -22,7 +22,7 @@ function sortCarByYearDescendingly(cars) {
     for (let i = 0; i < result.length - 1; i++) {
       /* 
       membandingkan nilai dari arrray index sekarang dan selanjutnya
-      apabila nilai dari array index sekarang lebih besar dari selanjutnya
+      apabila nilai dari array index sekarang  lebih kecil dari selanjutnya
       maka nilai ditukar 
     */
       if (result[i].year < result[i + 1].year) {
